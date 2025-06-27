@@ -54,6 +54,12 @@ author:
   linkedin: william-van-etten-8b956b17
   email  : vanetten@starfleetbio.com
 
+# google analytics
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "G-X8T7B9H77K"
+
 # pagination for blog page
 paginate: 10 # number of posts to show
 paginate_path: /page:num/
