@@ -5,3 +5,5 @@ A static Jekyll-based web site served on S3 through CloudFront deployed by githu
 ``` bash
 bundle exec jekyll serve -l -o
 ```
+
+[ci/cd setup](https://pagertree.com/blog/jekyll-site-to-aws-s3-using-github-actions)
