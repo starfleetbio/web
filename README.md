@@ -7,3 +7,5 @@ bundle exec jekyll serve -l -o
 ```
 
 [ci/cd setup](https://pagertree.com/blog/jekyll-site-to-aws-s3-using-github-actions)
+
+added ACL privs to bucket
