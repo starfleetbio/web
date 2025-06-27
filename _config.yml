@@ -67,7 +67,6 @@ defaults:
       path: ""
     values:
       layout: single
-      mathjax: true
       author_profile: true
       class: wide
       title: " "
