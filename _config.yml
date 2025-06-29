@@ -55,10 +55,7 @@ author:
   email  : vanetten@starfleetbio.com
 
 # google analytics
-analytics:
-  provider: "google"
-  google:
-    tracking_id: "G-X8T7B9H77K"
+  google_analytics: "G-X8T7B9H77K"
 
 # pagination for blog page
 paginate: 10 # number of posts to show
