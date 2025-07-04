@@ -1,3 +1,5 @@
 main:
-  - title: "Home"
-    url: /
+  - title: "Mission"
+    url: /mission/
+  - title: "Constitution"
+    url: /constitution/
