@@ -1,8 +1,8 @@
 ---
 title: Mission
 menus: header
-layout: home
-permalink: /mission
+layout: single
+permalink: /mission/
 date: 2025-07-03T11:48:41-04:00
 header:
   logo: /assets/images/logo_bkg_transparent_no_txt.png
