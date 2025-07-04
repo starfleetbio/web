@@ -1,6 +1,6 @@
 ---
-layout: page
+layout: home
 title: Logo
-permalink: /logo/
+permalink: /logo
 ---
 [![StarfleetBio Logo](/assets/images/logo.png)]
