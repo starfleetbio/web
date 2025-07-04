@@ -13,4 +13,4 @@ classes: wide
 categories:
   -post
 ---
-Absolutely fascinating body of research presented. I encourage everyone to [watch](https://cbiit.webex.com/recordingservice/sites/cbiit/recording/ef46955cd5b94928b905ef8f3ff16f81/playback).
+Broad body of research presented. I encourage everyone to [watch](https://cbiit.webex.com/recordingservice/sites/cbiit/recording/ef46955cd5b94928b905ef8f3ff16f81/playback).
