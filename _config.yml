@@ -48,7 +48,7 @@ plugins:
 author:
   name   : "William Van Etten"
   avatar : "/assets/images/headshot.jpg"
-  bio    : "I enjoy writing about things I'm interested in - mostly science, computing, cloud, AI, and software engineering."
+  bio    : "I enjoy writing about computer aided science."
   location: "Dover, NH"
   github : vanetten
   linkedin: william-van-etten-8b956b17
@@ -62,7 +62,7 @@ analytics:
 
 header:
   show_overlay_logo: true
-  logo: /assets/images/logo.png
+  logo: /assets/images/logo_bkg_transparent_no_txt.png
   overlay_image: /assets/images/header.jpg
   caption: "Sunrise at [__CosmicCliffs-hero__](https://www.nasa.gov/image-article/nasas-webb-reveals-cosmic-cliffs-glittering-landscape-of-star-birth/)"
 
