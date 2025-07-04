@@ -2,7 +2,7 @@
 layout: single
 title: "George Church Webinar"
 excerpt: "Preventative medicine for age-related disease"
-date: 2025-07-03
+date: 2025-07-04
 header:
   logo: /assets/images/logo_bkg_transparent_no_txt.png
   overlay_image: /assets/images/header.jpg
