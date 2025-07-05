@@ -13,4 +13,4 @@ classes: wide
 categories:
   -post
 ---
-I interviewed Yaffa Rubinstein a while back. I found her both both fascinating and inspiring. I encourage everyone to [read](https://academic.oup.com/jamiaopen/article/3/3/472/5904414).
+I interviewed Yaffa Rubinstein a while back. I found her both fascinating and inspiring. I encourage everyone to [read](https://academic.oup.com/jamiaopen/article/3/3/472/5904414).
