@@ -18,7 +18,7 @@ categories:
 
 I had an ex-coworker say to me recently...
 
-*"I always told [person X] that working at [company Y] felt like being in Starfleet to me.*
+*"I always told [person X] that working at [company Y] felt like being in Starfleet to me."*
 
 Readers of this post might have no idea what Starfleet is, but as a co-founder of company Y, that statement made me feel so very proud, since  building a company like Starfleet was exactly what I was shooting for.
 
