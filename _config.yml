@@ -22,10 +22,10 @@ title: StarfleetBio
 name: StarfleetBio
 email: vanetten@starfleetbio.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Enabling Discovery: How Computer-Aided Science Empowers Modern R&D.
+  Computer-Aided Science For Modern R&D.
 url: "https://starfleetbio.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  starfleetbio
-repository: starfleetbio/web
+repository: starfleetbio/
 
 # Build settings
 theme: minimal-mistakes-jekyll
