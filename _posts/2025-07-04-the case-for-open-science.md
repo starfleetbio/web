@@ -2,7 +2,8 @@
 layout: single
 title: "Yaffa R Rubinstein Publication"
 excerpt: "The case for open science: rare diseases"
-date: 2025-07-03
+date: 2025-07-03 18:00:00 -0400
+show_date: true
 header:
   logo: /assets/images/logo_bkg_transparent_no_txt.png
   overlay_image: /assets/images/header.jpg
