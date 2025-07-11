@@ -17,7 +17,6 @@ Involves an AWS account and configuring Route 53, CouldFront, Certificate Manage
 Involves a github account and configuring github scerets, and a github [action](.github/workflows/build_and_deploy.yml).
 ![alt text](git_images/github_perspective.png)
 
-
 ## Dev environment
 
 ### Install Homebrew [notes](https://brew.sh)
