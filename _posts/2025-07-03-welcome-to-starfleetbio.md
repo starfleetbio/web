@@ -1,18 +1,7 @@
 ---
-layout: single
 title: "Welcome to StarfleetBio!"
 excerpt: "What's behind the name?"
 date: 2025-07-03 18:00:00 -0400
-show_date: true
-header:
-  logo: /assets/images/logo_bkg_transparent_no_txt.png
-  overlay_image: /assets/images/header.jpg
-  caption: "Sunrise at [__CosmicCliffs-hero__](https://www.nasa.gov/image-article/nasas-webb-reveals-cosmic-cliffs-glittering-landscape-of-star-birth/)"
-
-classes: wide
-
-categories:
-  -post
 ---
 
 ## What is behind the name?

@@ -27,7 +27,6 @@ url: "https://starfleetbio.com" # the base hostname & protocol for your site, e.
 github_username:  starfleetbio
 repository: starfleetbio/
 logo: /assets/images/logo_bkg_transparent_no_txt.png
-
 # Build settings
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "dirt"
@@ -60,10 +59,6 @@ analytics:
   google:
     tracking_id: "G-X8T7B9H77K"
 
-header:
-  overlay_image: /assets/images/header.jpg
-  caption: "Sunrise at [__CosmicCliffs-hero__](https://www.nasa.gov/image-article/nasas-webb-reveals-cosmic-cliffs-glittering-landscape-of-star-birth/)"
-
 # pagination for blog page
 paginate: 10 # number of posts to show
 paginate_path: /page:num/
@@ -76,20 +71,32 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
       class: wide
+      author_profile: true
       title: " "
       title_separator: "|"
+      header:
+        overlay_image: /assets/images/header.jpg
+        caption: "Sunrise at [__CosmicCliffs-hero__](https://www.nasa.gov/image-article/nasas-webb-reveals-cosmic-cliffs-glittering-landscape-of-star-birth/)"
+        og_image: /assets/images/logo.png
+
   # posts
   - scope:
       path: ""
       type: posts
     values:
+      layout: single
+      class: wide
       author_profile: true
       toc: true
       toc_label: "Contents"
       read_time: false
       comments: true
+      show_date: true
+      header:
+        overlay_image: /assets/images/header.jpg
+        caption: "Sunrise at [__CosmicCliffs-hero__](https://www.nasa.gov/image-article/nasas-webb-reveals-cosmic-cliffs-glittering-landscape-of-star-birth/)"
+        og_image: /assets/images/logo.png
 
 # Exclude from processing.
 # The following items will not be processed, by default.

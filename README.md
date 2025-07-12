@@ -56,3 +56,7 @@ git push origin main
 Observe [actions](https://github.com/starfleetbio/web/actions).
 
 Check [website](https://starfleetbio.com).
+
+## Minimal Mistakes theme
+
+[default config.yaml](https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml) theme settings.
