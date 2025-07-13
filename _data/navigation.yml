@@ -1,5 +1,5 @@
 main:
   - title: "Mission"
-    url: /mission/index.html
+    url: /mission/
   - title: "Constitution"
-    url: /constitution/index.html
+    url: /constitution/

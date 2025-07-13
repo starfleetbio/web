@@ -1,36 +1,30 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: StarfleetBio
-name: StarfleetBio
-email: vanetten@starfleetbio.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Computer-Aided Science For Modern R&D.
+# Site configuration for StarfleetBio website
 url: "https://starfleetbio.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  starfleetbio
-repository: starfleetbio/
-logo: /assets/images/logo_bkg_transparent_no_txt.png
-# Build settings
+title: StarfleetBio
+description: Computer-Aided Science For Modern R&D
+
+# Site Theme settings
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "dirt"
+logo: /assets/images/logo_transparent_no_txt.png
 
+# Site google analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-X8T7B9H77K"
+
+# Site Author
+author:
+  name   : "William Van Etten"
+  avatar : "/assets/images/headshot.jpg"
+  bio    : "Computer-Aided Science For Modern R&D"
+  location: "Dover, NH"
+  github : starfleetbio
+  linkedin: william-van-etten-8b956b17
+  email  : vanetten@starfleetbio.com
+
+# Site build settings
 include:
   - _pages
   - assets
@@ -43,77 +37,16 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# settings for author profile
-author:
-  name   : "William Van Etten"
-  avatar : "/assets/images/headshot.jpg"
-  bio    : "Computer-Aided Science For Modern R&D"
-  location: "Dover, NH"
-  github : starfleetbio
-  linkedin: william-van-etten-8b956b17
-  email  : vanetten@starfleetbio.com
-
-# google analytics
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-X8T7B9H77K"
-
-# pagination for blog page
-paginate: 10 # number of posts to show
-paginate_path: /page:num/
-
 # default YAML front matter
 defaults:
-  # all
   - scope:
       path: ""
-      type: pages
     values:
       layout: single
-      class: wide
       author_profile: true
-      title: " "
-      title_separator: "|"
-      header:
-        overlay_image: /assets/images/header.jpg
-        caption: "Sunrise at [__CosmicCliffs-hero__](https://www.nasa.gov/image-article/nasas-webb-reveals-cosmic-cliffs-glittering-landscape-of-star-birth/)"
-        og_image: /assets/images/logo.png
-
-  # posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      class: wide
-      author_profile: true
-      toc: true
-      toc_label: "Contents"
-      read_time: false
-      comments: true
       show_date: true
+      class: wide
       header:
         overlay_image: /assets/images/header.jpg
         caption: "Sunrise at [__CosmicCliffs-hero__](https://www.nasa.gov/image-article/nasas-webb-reveals-cosmic-cliffs-glittering-landscape-of-star-birth/)"
         og_image: /assets/images/logo.png
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
