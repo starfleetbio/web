@@ -2,6 +2,7 @@
 title: "Welcome to StarfleetBio!"
 excerpt: "What's behind the name?"
 date: 2025-07-03 18:00:00 -0400
+author: vanetten
 ---
 
 ## What is behind the name?
