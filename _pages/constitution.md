@@ -3,6 +3,7 @@ title: Constitution
 date: 2025-07-03T11:48:41-04:00
 permalink: /constitution/
 author: vanetten
+show_date: false
 ---
 
 # Constitution of StarfleetBio — An Employee-Owned Enterprise
