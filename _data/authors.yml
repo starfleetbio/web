@@ -7,3 +7,11 @@ vanetten:
   github : starfleetbio
   linkedin: william-van-etten-8b956b17
   email  : vanetten@starfleetbio.com
+cleveland:
+  name   : "Kristen Cleveland"
+  avatar : "/assets/images/headshotkc.jpg"
+  bio    : "Making ourselves unnecessary is success"
+  location: "Melrose, MA"
+  github : kristencleveland
+  linkedin: kristencleveland
+  email  : kristen@starfleetbio.com
