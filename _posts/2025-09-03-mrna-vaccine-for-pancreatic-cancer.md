@@ -51,7 +51,7 @@ neoantigen vaccines stimulate T cells in pancreatic cancer", Nature 618,
 
 -   **Pancreatic ductal adenocarcinoma (PDAC)** has \~12% five‑year
     survival, with poor response to immunotherapy due to low mutation
-    burden and weak natural immunity.\
+    burden and weak natural immunity.
 -   Some survivors develop **T‑cell responses** to their tumors,
     inspiring trials of **personalized mRNA vaccines** that encode
     tumor‑specific neoantigens.
@@ -61,14 +61,14 @@ neoantigen vaccines stimulate T cells in pancreatic cancer", Nature 618,
 ## Study Design & Methods
 
 -   **Phase I trial** (NCT04161755) with PDAC patients after surgical
-    resection.\
+    resection.
 -   Treatment sequence:
-    1.  **Atezolizumab** (anti‑PD‑L1 antibody)\
+    1.  **Atezolizumab** (anti‑PD‑L1 antibody)
     2.  **Autogene cevumeran** (personalized mRNA vaccine encoding up to
-        20 neoantigens)\
-    3.  **mFOLFIRINOX** chemotherapy\
+        20 neoantigens)
+    3.  **mFOLFIRINOX** chemotherapy
 -   Endpoints: safety, T‑cell induction, and **18‑month recurrence‑free
-    survival (RFS)**.\
+    survival (RFS)**.
 -   T‑cell tracking via **CloneTrack**.
 
 ------------------------------------------------------------------------
@@ -76,16 +76,16 @@ neoantigen vaccines stimulate T cells in pancreatic cancer", Nature 618,
 ## Key Findings
 
 -   **Feasibility & Safety**: Personalized vaccines manufactured and
-    administered successfully, with good tolerability.\
+    administered successfully, with good tolerability.
 -   **Immune Response**: 8 of 16 patients mounted strong,
-    **neoantigen‑specific T‑cell responses**.\
+    **neoantigen‑specific T‑cell responses**.
 -   **Magnitude**: Vaccine‑induced T‑cell clones sometimes made up to
-    **10% of circulating T cells**.\
+    **10% of circulating T cells**.
 -   **Durability**: Responses persisted up to **3 years** and expanded
-    with boosters.\
+    with boosters.
 -   **Clinical Correlation**:
-    -   Responders: **median RFS not reached**.\
-    -   Non‑responders: **median RFS ≈ 13.4 months**.\
+    -   Responders: **median RFS not reached**.
+    -   Non‑responders: **median RFS ≈ 13.4 months**.
     -   Difference was statistically significant (**P = 0.003**).
 
 ------------------------------------------------------------------------
@@ -93,9 +93,9 @@ neoantigen vaccines stimulate T cells in pancreatic cancer", Nature 618,
 ## Interpretation & Implications
 
 -   **Proof of principle**: Personalized mRNA vaccines can work in
-    PDAC.\
+    PDAC.
 -   **Clinical promise**: Immune responses correlated with delayed
-    recurrence.\
+    recurrence.
 -   **Next steps**: Larger randomized trials to confirm benefit and
     refine patient selection.
 
