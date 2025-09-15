@@ -1,5 +1,11 @@
 main:
+  - title: "About"
+    url: /about/
+  - title: "Work"
+    url: /work/
   - title: "Mission"
     url: /mission/
-  - title: "Constitution"
-    url: /constitution/
+  - title: "Posts"
+    url: /posts/
+  - title: "Contact"
+    url: /contact/

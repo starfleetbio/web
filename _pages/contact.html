@@ -1,0 +1,98 @@
+---
+title: Contact
+excerpt: First Hour’s on Us
+layout: splash
+date: 2025-07-03T11:48:41-04:00
+permalink: /contact/
+author: vanetten
+show_date: false
+feature_row:
+  - image_path: /assets/images/contact.jpg
+    alt: "placeholder image 1"
+    title: "About You"
+    excerpt: "Tell us about you and your project."
+---
+
+{% include feature_row type="center" %}
+
+<form id="contact-form" class="space-y-6">
+  <div class="space-y-2">
+    <label class="text-sm font-medium text-neutral-text">Name *</label>
+    <input
+      class="flex h-12 w-full rounded-lg border border-neutral-border bg-white px-4 py-2 text-base
+              ring-offset-white file:border-0 file:bg-transparent file:text-sm file:font-medium
+              placeholder:text-neutral-text-light focus-visible:outline-none focus-visible:ring-2
+              focus-visible:ring-primary-blue focus-visible:ring-offset-2 disabled:cursor-not-allowed
+              disabled:opacity-50"
+      name="name"
+    />
+  </div>
+
+  <div class="space-y-2">
+    <label class="text-sm font-medium text-neutral-text">Email *</label>
+    <input
+      type="email"
+      class="flex h-12 w-full rounded-lg border border-neutral-border bg-white px-4 py-2 text-base
+              ring-offset-white file:border-0 file:bg-transparent file:text-sm file:font-medium
+              placeholder:text-neutral-text-light focus-visible:outline-none focus-visible:ring-2
+              focus-visible:ring-primary-blue focus-visible:ring-offset-2 disabled:cursor-not-allowed
+              disabled:opacity-50"
+      name="email"
+    />
+  </div>
+
+  <div class="space-y-2">
+    <label class="text-sm font-medium text-neutral-text">Project Description *</label>
+    <textarea
+      class="flex min-h-[120px] w-full rounded-lg border border-neutral-border bg-white px-4 py-2 text-base
+              ring-offset-white placeholder:text-neutral-text-light focus-visible:outline-none focus-visible:ring-2
+              focus-visible:ring-primary-blue focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50
+              resize-vertical"
+      name="message"
+      rows="4"
+    ></textarea>
+    <p class="text-sm text-neutral-text-light">Please provide a brief description of your project. e.g. experimental question, scientific methods, research goals, technologies under consideration, timeline, budget, etc.</p>
+  </div>
+
+  <!-- Submit Button -->
+  <button
+    class="inline-flex items-center justify-center rounded-lg font-medium transition-colors
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2
+           disabled:pointer-events-none disabled:opacity-50 bg-primary-blue text-white
+           hover:bg-blue-700 h-14 px-8 text-lg w-full"
+    type="submit"
+  >
+    Submit Consultation Request
+  </button>
+</form>
+
+<script>
+  const form = document.getElementById('contact-form');
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = {
+      name: form.name.value,
+      email: form.email.value,
+      message: form.message.value
+    };
+
+    try {
+      const response = await fetch('https://ehuw7haxlj.execute-api.us-east-1.amazonaws.com/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+      const result = await response.json();
+      if (response.ok) {
+        alert('Email sent successfully!');
+      } else {
+        alert('Error sending email: ' + result.message);
+      }
+    } catch (err) {
+      console.error(err);
+      alert('Error sending email.');
+    }
+  });
+</script>

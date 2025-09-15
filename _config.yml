@@ -18,7 +18,7 @@ analytics:
 include:
   - _pages
   - assets
-  - index.html
+  - index
 exclude:
   - TODO.md
   - README.md
@@ -37,6 +37,6 @@ defaults:
       show_date: true
       class: wide
       header:
+        image_description: false
         overlay_image: /assets/images/header.jpg
-        caption: "Sunrise at [__CosmicCliffs-hero__](https://www.nasa.gov/image-article/nasas-webb-reveals-cosmic-cliffs-glittering-landscape-of-star-birth/)"
         og_image: /assets/images/logo.png
