@@ -7,13 +7,6 @@ show_date: false
 intro: 
   - excerpt: "We roll up our sleeves and **work with you**, side by side, to apply modern computer-aided science methods to move your science further, faster."
 feature_row:
-  - image_path: /assets/images/about.jpg
-    alt: "placeholder image 1"
-    title: "About Us"
-    excerpt: "Mission driven **scientists/technologists** with many decades of experience with Pharma, Biotech, Research Institutes, Government Agencies, Startups, and Academic Labs."
-    url: "/about/"
-    btn_label: "More"
-    btn_class: "btn--primary"
   - image_path: assets/images/wrench.jpg
     alt: "placeholder image 2"
     title: "What We Do"
@@ -25,6 +18,13 @@ feature_row:
     title: "Why We Do It"
     excerpt: "We are **deeply passionate** about science. We have personal connections to rare and age-releated diseases."
     url: "/mission/"
+    btn_label: "More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/about.jpg
+    alt: "placeholder image 1"
+    title: "About Us"
+    excerpt: "Mission driven **scientists/technologists** with many decades of experience with Pharma, Biotech, Research Institutes, Government Agencies, Startups, and Academic Labs."
+    url: "/about/"
     btn_label: "More"
     btn_class: "btn--primary"
 feature_row2:
@@ -55,10 +55,11 @@ feature_row4:
 
 {% include feature_row id="intro" type="center" %}
 
+{% include feature_row id="feature_row4" type="center" %}
+
 {% include feature_row %}
 
 {% include feature_row id="feature_row2" type="left" %}
 
 {% include feature_row id="feature_row3" type="right" %}
 
-{% include feature_row id="feature_row4" type="center" %}
