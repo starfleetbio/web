@@ -49,7 +49,7 @@ feature_row4:
     title: "First Hour’s on Us"
     excerpt: "This is not a sales pitch. You will sit down with Bill, a scientist and practitioner who is not a shill for vendors or subscription tools. He is an advocate for open source whenever appropriate and is here to listen, think with you, and help solve real problems. Tell us about your science and let’s see where we can take it together."
     url: "/contact/"
-    btn_label: "Contact"
+    btn_label: "Book Your Free Hour"
     btn_class: "btn--primary"
 ---
 
