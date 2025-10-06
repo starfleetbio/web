@@ -4,7 +4,6 @@ excerpt: Consultants who **do stuff** rather than just talk about doing stuff
 layout: splash
 date: 2025-07-03T11:48:41-04:00
 permalink: /about/
-author: vanetten
 show_date: false
 feature_row:
   - image_path: /assets/images/about.jpg
@@ -12,6 +11,28 @@ feature_row:
 ---
 
 {% include feature_row type="center" %}
+
+## Our Team
+
+### William Van Etten
+
+![William Van Etten](/assets/images/vanetten.jpg){:height="auto" width="200" style="border-radius: 50%;"}
+
+Computer-Aided Science For Modern R&D
+
+William brings extensive experience in computational biology and scientific software development. Based in Dover, NH, he founded StarfleetBio to help organizations leverage modern computational approaches for research and development.
+
+[GitHub](https://github.com/starfleetbio) | [LinkedIn](https://linkedin.com/in/williamvanetten) | [Email](mailto:vanetten@starfleetbio.com)
+
+### Kristen Cleveland
+
+![Kristen Cleveland](/assets/images/cleveland.jpg){:height="auto" width="200" style="border-radius: 50%;"}
+
+Making ourselves unnecessary is success
+
+Kristen specializes in building systems and processes that empower teams to become self-sufficient. Based in Melrose, MA, she focuses on creating sustainable solutions that enable organizations to thrive independently.
+
+[GitHub](https://github.com/kristencleveland) | [LinkedIn](https://linkedin.com/in/kristencleveland) | [Email](mailto:kristen@starfleetbio.com)
 
 ## What is behind the name?
 

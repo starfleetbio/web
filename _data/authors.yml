@@ -1,7 +1,7 @@
 # Site Author
 vanetten:
   name   : "William Van Etten"
-  avatar : "/assets/images/headshot.jpg"
+  avatar : "/assets/images/vanetten.jpg"
   bio    : "Computer-Aided Science For Modern R&D"
   location: "Dover, NH"
   github : starfleetbio
@@ -9,7 +9,7 @@ vanetten:
   email  : vanetten@starfleetbio.com
 cleveland:
   name   : "Kristen Cleveland"
-  avatar : "/assets/images/headshotkc.jpg"
+  avatar : "/assets/images/cleveland.jpg"
   bio    : "Making ourselves unnecessary is success"
   location: "Melrose, MA"
   github : kristencleveland
