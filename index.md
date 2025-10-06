@@ -31,7 +31,7 @@ feature_row2:
   - image_path: /assets/images/breadth.jpg
     alt: "placeholder image 2"
     title: "Breadth and Depth of Experience"
-    excerpt: "If it's been done before, we've done it, but our favorite is when it's never been done before. **Short list of favorites:** Started as a contributing author on the public Human Genome Project. Built clusters back when it was hard, then built software for automated cluster installation from an Apple iPod. Began using AWS when it only offered S3 and EC2. Built the analysis envrionment for [Autism Speaks](https://www.autismspeaks.org) and the [discovery of 18 candidate genes](https://pubmed.ncbi.nlm.nih.gov/28263302/). Migrated a cancer discovery pipeline from on-prem to AWS HealthOmics. Phased UK BioBank to find compound heterozygotes in genes related to rare disease."
+    excerpt: "If it's been done before, we've done it, but our favorite is when it's never been done before. **Short list of favorites:** Started as a contributing author on the public Human Genome Project. Built clusters back when it was hard, then built software for automated cluster installation from an Apple iPod. Began using AWS when it only offered S3 and EC2. Built the analysis environment for [Autism Speaks](https://www.autismspeaks.org) and the [discovery of 18 candidate genes](https://pubmed.ncbi.nlm.nih.gov/28263302/). Migrated a cancer discovery pipeline from on-prem to AWS HealthOmics. Phased UK BioBank to find compound heterozygotes in genes related to rare disease."
     url: "/work/#what"
     btn_label: "More"
     btn_class: "btn--primary"
