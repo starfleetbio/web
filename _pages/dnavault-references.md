@@ -5,6 +5,7 @@ permalink: /dnavault/references/
 show_date: false
 toc: true
 toc_label: "Categories"
+header: false
 ---
 
 DNAVault is built on peer-reviewed science. This page lists the primary references underlying the algorithms, databases, and clinical standards used in the app.

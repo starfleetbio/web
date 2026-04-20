@@ -5,6 +5,7 @@ permalink: /dnavault/terms/
 show_date: false
 toc: true
 toc_label: "Contents"
+header: false
 ---
 
 *Effective date: March 18, 2026*
