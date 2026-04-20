@@ -5,7 +5,10 @@ permalink: /dnavault/privacy/
 show_date: false
 toc: true
 toc_label: "Contents"
-header: false
+header:
+  overlay_image: /assets/images/header.jpg
+  overlay_filter: 0.3
+  min_height: 180px
 ---
 
 *Effective date: March 18, 2026*
