@@ -29,7 +29,7 @@ Do not make medical decisions based solely on results from DNAVault. Always cons
 
 Genetic analysis involves inherent uncertainty. Results depend on:
 
-- The quality and completeness of your uploaded raw data file
+- The quality and completeness of your imported raw data file
 - The accuracy of the reference databases used (which are maintained by third parties)
 - Statistical estimation methods that have known error rates
 
@@ -57,7 +57,7 @@ You own your genomic data. DNAVault stores it locally on your device only. You m
 
 ## 6. Third-Party Services
 
-DNAVault may query public biomedical databases (ClinVar, BioMCP) to enrich variant results. These services are operated by third parties and governed by their own terms and privacy policies. StarfleetBio is not responsible for the content, accuracy, or availability of third-party data sources.
+DNAVault uses [BioMCP](https://github.com/genomoncology/biomcp) — an open protocol for querying public biomedical databases — to enrich variant and clinical trial results. These queries are routed through a StarfleetBio proxy service to protect your device's IP address. The underlying public databases (such as ClinVar, PubMed, and ClinicalTrials.gov) are operated by third parties and governed by their own terms. StarfleetBio is not responsible for the content, accuracy, or availability of third-party data sources.
 
 ---
 

@@ -27,12 +27,10 @@ DNAVault includes reference databases used for analysis (Y-DNA haplogroup tree, 
 
 ### 1.3 Health and Variant Queries
 
-When you use the **Ask** or **Health** features, DNAVault may submit specific variant identifiers (e.g., rsID numbers, gene names) to public biomedical databases, including:
+When you use the **Ask** or **Health** features, DNAVault queries biomedical databases for variant information:
 
-- **ClinVar** (National Center for Biotechnology Information)
-- **BioMCP** variant and trial search services
-
-These queries contain no personally identifying information and no raw genomic sequences. They are equivalent to a web search for a specific SNP identifier.
+- **ClinVar** queries run entirely on-device against a locally downloaded database. Your genomic variants are never transmitted to NCBI or any external server.
+- **BioMCP** variant and trial search queries are routed through a StarfleetBio proxy service, which conceals your device's IP address from the BioMCP service. These queries contain only SNP identifiers (e.g., rsIDs, gene names) — no raw genomic sequences and no personally identifying information.
 
 ### 1.4 App Store and Apple Services
 
@@ -40,7 +38,7 @@ Apple may collect analytics and crash reports through standard iOS mechanisms. T
 
 ### 1.5 Contact and Support
 
-If you contact us by email, we retain your message and email address to respond to your inquiry. We do not add you to any mailing list.
+If you contact us by email at [dnavault@starfleetbio.com](mailto:dnavault@starfleetbio.com), we retain your message and email address to respond to your inquiry. We do not add you to any mailing list.
 
 ---
 
