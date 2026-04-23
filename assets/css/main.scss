@@ -1,0 +1,12 @@
+---
+# Only the main.scss file needs front matter (it imports everything else).
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+// DNAVault feature row — rounded screenshot corners
+.feature__wrapper .feature__item .archive__item-teaser img {
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}

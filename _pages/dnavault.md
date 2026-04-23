@@ -53,46 +53,18 @@ feature_row2:
     excerpt: "Plain-language questions answered using Claude AI with direct access to your local genome. 30 days free, then $2.95/month or $19.95/year."
 ---
 
+<div style="background: #0d1117; border-left: 4px solid #00bcd4; padding: 2em 2em 1.5em; margin: 2em 0; border-radius: 8px; color: #e0e0e0;">
+<h2 style="color: #00bcd4; margin-top: 0;">Privacy That Can't Be Overridden</h2>
+<p>Most apps promise not to look at your data. We made it technically impossible.</p>
+<ol>
+  <li><strong>Your phone generates a public/private keypair.</strong> The private key lives in the iPhone Secure Enclave and never leaves your device — ever.</li>
+  <li><strong>Your genomic data is processed inside an AWS Nitro Enclave</strong> — an isolated compute environment with no persistent storage, no network access, and no operator access. Not even StarfleetBio can see inside. The enclave's identity is cryptographically attested before receiving any data.</li>
+  <li><strong>The result is encrypted with your public key</strong> inside the enclave, before it leaves. Only you — the holder of the private key on your iPhone — can decrypt it.</li>
+  <li><strong>We receive ciphertext we cannot read.</strong> Not with any master key, not in response to a subpoena, not under any circumstance.</li>
+</ol>
+<p style="margin-bottom: 0;"><strong>This is not a privacy policy. It is a cryptographic guarantee.</strong></p>
+</div>
+
 {% include feature_row %}
 
 {% include feature_row id="feature_row2" %}
-
----
-
-## Privacy That Can't Be Overridden
-
-Most apps promise not to look at your data. We made it technically impossible.
-
-**Here's exactly how it works:**
-
-1. **Your phone generates a public/private keypair.** The private key lives in the iPhone Secure Enclave — it never leaves your device, ever.
-
-2. **Your genomic data is processed inside an AWS Nitro Enclave.** Nitro Enclaves are isolated compute environments with no persistent storage, no network access, and no operator access — not even from AWS or StarfleetBio. The enclave's identity is cryptographically attested before it receives any data.
-
-3. **The result is encrypted with your public key** inside the enclave, before it leaves. Only the holder of the private key — you, on your phone — can decrypt it.
-
-4. **We receive ciphertext we cannot read.** Not with our master keys, not in response to a subpoena, not under any circumstance. The mathematics of public-key cryptography makes decryption without your private key computationally infeasible.
-
-This is not a privacy policy. It is a cryptographic guarantee.
-
----
-
-## Pricing
-
-| | |
-|---|---|
-| **App purchase** | $2.95 |
-| **All on-device features** | Free forever |
-| **Ask AI — first 30 days** | Free |
-| **Ask AI — Monthly** | $2.95/month |
-| **Ask AI — Annual** | $19.95/year |
-
----
-
-## Legal
-
-- [Privacy Policy](/dnavault/privacy/)
-- [Terms of Use](/dnavault/terms/)
-- [Scientific References](/dnavault/references/)
-
-Questions? [dnavault@starfleetbio.com](mailto:dnavault@starfleetbio.com)

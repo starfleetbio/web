@@ -1,6 +1,6 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
-{% if page.dnavault_site %}
+{% if page.url contains '/dnavault/' %}
   {% assign masthead_title = "DNAVault" %}
   {% assign masthead_url = "/dnavault/" %}
   {% assign masthead_nav = site.data.navigation.dnavault %}
@@ -19,7 +19,6 @@
         {% endunless %}
         <a class="site-title" href="{{ masthead_url | relative_url }}">
           {{ masthead_title }}
-          {% if site.subtitle and page.dnavault_site == false %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
         <ul class="visible-links">
           {%- for link in masthead_nav -%}
@@ -28,12 +27,6 @@
             </li>
           {%- endfor -%}
         </ul>
-        {% if site.search == true %}
-        <button class="search__toggle" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
-          <i class="fas fa-search"></i>
-        </button>
-        {% endif %}
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
