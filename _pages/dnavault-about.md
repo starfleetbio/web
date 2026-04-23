@@ -1,5 +1,5 @@
 ---
-title: "About DNAVault"
+title: "About"
 layout: single
 permalink: /dnavault/about/
 dnavault_site: true
