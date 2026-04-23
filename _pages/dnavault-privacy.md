@@ -3,6 +3,7 @@ title: DNAVault — Privacy Policy
 layout: single
 permalink: /dnavault/privacy/
 show_date: false
+dnavault_site: true
 toc: true
 toc_label: "Contents"
 header:

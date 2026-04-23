@@ -9,3 +9,9 @@ main:
     url: /posts/
   - title: "Contact"
     url: /contact/
+
+dnavault:
+  - title: "About"
+    url: /dnavault/about/
+  - title: "Contact"
+    url: /dnavault/contact/

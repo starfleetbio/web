@@ -3,6 +3,7 @@ title: DNAVault Scientific References
 layout: single
 permalink: /dnavault/references/
 show_date: false
+dnavault_site: true
 toc: true
 toc_label: "Categories"
 header:

@@ -3,6 +3,7 @@ title: DNAVault — Terms of Use
 layout: single
 permalink: /dnavault/terms/
 show_date: false
+dnavault_site: true
 toc: true
 toc_label: "Contents"
 header:
