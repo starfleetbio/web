@@ -14,8 +14,8 @@ header:
       url: "https://apps.apple.com/app/dnavault/id6741454239"
       btn_class: "btn--primary btn--large"
 excerpt: >
-  Your genome. Your privacy. Your device.<br>
-  <small>All analysis runs on-device. Your DNA never leaves your iPhone.</small>
+  Your genome is encrypted with a key that only your phone holds.<br>
+  <small>We process your DNA inside a cryptographically attested enclave — and we cannot read the result. Not by policy. By math.</small>
 
 feature_row:
   - image_path: /assets/images/dnavault_home.png
@@ -56,6 +56,24 @@ feature_row2:
 {% include feature_row %}
 
 {% include feature_row id="feature_row2" %}
+
+---
+
+## Privacy That Can't Be Overridden
+
+Most apps promise not to look at your data. We made it technically impossible.
+
+**Here's exactly how it works:**
+
+1. **Your phone generates a public/private keypair.** The private key lives in the iPhone Secure Enclave — it never leaves your device, ever.
+
+2. **Your genomic data is processed inside an AWS Nitro Enclave.** Nitro Enclaves are isolated compute environments with no persistent storage, no network access, and no operator access — not even from AWS or StarfleetBio. The enclave's identity is cryptographically attested before it receives any data.
+
+3. **The result is encrypted with your public key** inside the enclave, before it leaves. Only the holder of the private key — you, on your phone — can decrypt it.
+
+4. **We receive ciphertext we cannot read.** Not with our master keys, not in response to a subpoena, not under any circumstance. The mathematics of public-key cryptography makes decryption without your private key computationally infeasible.
+
+This is not a privacy policy. It is a cryptographic guarantee.
 
 ---
 

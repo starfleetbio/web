@@ -16,14 +16,25 @@ header:
 
 DNAVault is a privacy-first genomics app for iPhone. It lets you explore your own genetic data — kinship, ancestry, health, and more — entirely on your device. Your genome never leaves your phone.
 
-## Privacy by Design
+## Privacy That Can't Be Overridden
 
-Every feature in DNAVault runs locally:
+Most apps promise not to look at your data. DNAVault makes it technically impossible.
 
-- **Kinship analysis** — IBD segment comparison runs on-device. Proximity sharing is end-to-end encrypted and nothing is retained after analysis.
-- **Haplogroup classification** — Y-DNA and mtDNA classification using Yleaf and mitoLEAF algorithms, on-device.
-- **Health screening** — ClinVar variant lookup runs against a local database you download once.
-- **Ask** — Queries are sent to Claude AI via an anonymizing proxy. Your genome data itself is not transmitted; only the text of your question and relevant extracted variants are included.
+**The architecture:**
+
+1. **Your phone generates a public/private keypair.** The private key lives in the iPhone Secure Enclave and never leaves your device.
+
+2. **Genomic data is processed inside an AWS Nitro Enclave** — an isolated compute environment with no persistent storage, no network access, and no operator access. Not even StarfleetBio can access what runs inside. The enclave's identity is cryptographically attested before receiving any data.
+
+3. **The result is encrypted with your public key inside the enclave.** Only you — the holder of the private key on your iPhone — can decrypt it.
+
+4. **We receive ciphertext we cannot read.** Not with any master key, not in response to legal process, not under any circumstance. This is a cryptographic guarantee, not a privacy policy.
+
+**On-device analysis:**
+- **Kinship** — IBD segment comparison runs locally. Proximity sharing is end-to-end encrypted; nothing is retained after analysis.
+- **Haplogroup classification** — Y-DNA and mtDNA classification using Yleaf and mitoLEAF, on-device.
+- **Health screening** — ClinVar variant lookup runs against a local database downloaded once.
+- **Ask** — Only the text of your question is sent to Claude AI via an anonymizing proxy. Raw genome data is never transmitted.
 
 ## Supported Formats
 
