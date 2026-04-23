@@ -13,5 +13,7 @@ main:
 dnavault:
   - title: "About"
     url: /dnavault/about/
+  - title: "References"
+    url: /dnavault/references/
   - title: "Contact"
     url: /dnavault/contact/

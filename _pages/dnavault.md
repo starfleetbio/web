@@ -16,41 +16,6 @@ header:
 excerpt: >
   Your genome is encrypted with a key that only your phone holds.<br>
   <small>We process your DNA inside a cryptographically attested enclave — and we cannot read the result. Not by policy. By math.</small>
-
-feature_row:
-  - image_path: /assets/images/dnavault_home.png
-    alt: "Your Genetic Data"
-    title: "Your Genetic Data"
-    excerpt: "Import WGS, AncestryDNA, or 23andMe — all stored locally on your device. Blood type, sex, ancestry, and quality metrics at a glance."
-
-  - image_path: /assets/images/dnavault_kinship.png
-    alt: "Kinship Analysis"
-    title: "Kinship Analysis"
-    excerpt: "Compare genomes with someone nearby using end-to-end encrypted proximity sharing. No data leaves your devices."
-
-  - image_path: /assets/images/dnavault_kinship_results.png
-    alt: "Precise Results"
-    title: "Precise Results"
-    excerpt: "IBD segment analysis identifies Half Siblings, Cousins, Parent/Child, and more — with haplogroup confirmation."
-
-feature_row2:
-  - image_path: /assets/images/dnavault_ancestry.png
-    alt: "Ancestral Origins"
-    title: "Ancestral Origins"
-    excerpt: "Trace your paternal (Y-DNA) and maternal (mtDNA) lineage back thousands of years using Yleaf and mitoLEAF classification."
-    url: /dnavault/references/
-    btn_label: "Scientific References"
-    btn_class: "btn--inverse"
-
-  - image_path: /assets/images/dnavault_health.png
-    alt: "Health Insights"
-    title: "Health Insights"
-    excerpt: "Scan 81 ACMG secondary finding genes, pharmacogenomics, and clinically significant variants. Results stay on your device."
-
-  - image_path: /assets/images/dnavault_ask.png
-    alt: "Ask Your Genome"
-    title: "Ask Your Genome"
-    excerpt: "Plain-language questions answered using Claude AI with direct access to your local genome. 30 days free, then $2.95/month or $19.95/year."
 ---
 
 <div style="background: #0d1117; border-left: 4px solid #00bcd4; padding: 2em 2em 1.5em; margin: 2em 0; border-radius: 8px; color: #e0e0e0;">
@@ -58,13 +23,60 @@ feature_row2:
 <p>Most apps promise not to look at your data. We made it technically impossible.</p>
 <ol>
   <li><strong>Your phone generates a public/private keypair.</strong> The private key lives in the iPhone Secure Enclave and never leaves your device — ever.</li>
-  <li><strong>Your genomic data is processed inside an AWS Nitro Enclave</strong> — an isolated compute environment with no persistent storage, no network access, and no operator access. Not even StarfleetBio can see inside. The enclave's identity is cryptographically attested before receiving any data.</li>
+  <li><strong>Your genomic data is processed inside an AWS Nitro Enclave</strong> — isolated compute with no persistent storage, no network access, and no operator access. The enclave's identity is cryptographically attested before receiving any data.</li>
   <li><strong>The result is encrypted with your public key</strong> inside the enclave, before it leaves. Only you — the holder of the private key on your iPhone — can decrypt it.</li>
   <li><strong>We receive ciphertext we cannot read.</strong> Not with any master key, not in response to a subpoena, not under any circumstance.</li>
 </ol>
 <p style="margin-bottom: 0;"><strong>This is not a privacy policy. It is a cryptographic guarantee.</strong></p>
 </div>
 
-{% include feature_row %}
+<!-- Swiper carousel for app screenshots -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
-{% include feature_row id="feature_row2" %}
+<div class="swiper dnavault-swiper" style="margin: 2em 0; padding-bottom: 3em;">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="/assets/images/dnavault_home.png" alt="Your Genetic Data" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
+      <p style="text-align:center; margin-top:1em;"><strong>Your Genetic Data</strong><br><small>WGS, AncestryDNA, or 23andMe — stored locally on your device.</small></p>
+    </div>
+    <div class="swiper-slide">
+      <img src="/assets/images/dnavault_kinship.png" alt="Kinship Analysis" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
+      <p style="text-align:center; margin-top:1em;"><strong>Kinship Analysis</strong><br><small>End-to-end encrypted proximity sharing. Nothing retained after analysis.</small></p>
+    </div>
+    <div class="swiper-slide">
+      <img src="/assets/images/dnavault_kinship_results.png" alt="Precise Results" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
+      <p style="text-align:center; margin-top:1em;"><strong>Precise Results</strong><br><small>IBD segment analysis identifies Half Siblings, Cousins, Parent/Child, and more.</small></p>
+    </div>
+    <div class="swiper-slide">
+      <img src="/assets/images/dnavault_ancestry.png" alt="Ancestral Origins" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
+      <p style="text-align:center; margin-top:1em;"><strong>Ancestral Origins</strong><br><small>Trace your paternal and maternal lineage back thousands of years.</small></p>
+    </div>
+    <div class="swiper-slide">
+      <img src="/assets/images/dnavault_health.png" alt="Health Insights" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
+      <p style="text-align:center; margin-top:1em;"><strong>Health Insights</strong><br><small>81 ACMG genes, pharmacogenomics, and clinically significant variants.</small></p>
+    </div>
+    <div class="swiper-slide">
+      <img src="/assets/images/dnavault_ask.png" alt="Ask Your Genome" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
+      <p style="text-align:center; margin-top:1em;"><strong>Ask Your Genome</strong><br><small>Plain-language questions answered by Claude AI using your local genome.</small></p>
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  new Swiper('.dnavault-swiper', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    pagination: { el: '.swiper-pagination', clickable: true },
+    navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+    breakpoints: {
+      640:  { slidesPerView: 2 },
+      1024: { slidesPerView: 3 }
+    }
+  });
+</script>
