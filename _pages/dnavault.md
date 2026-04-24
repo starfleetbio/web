@@ -30,16 +30,12 @@ excerpt: >
 <div class="swiper dnavault-swiper" style="margin: 2em 0; padding-bottom: 3em;">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
+      <img src="/assets/images/dnavault_welcome.png" alt="Welcome" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
+      <p style="text-align:center; margin-top:1em;"><strong>DNAVault</strong><br><small>Your genome. Your privacy. Your device.</small></p>
+    </div>
+    <div class="swiper-slide">
       <img src="/assets/images/dnavault_home.png" alt="Your Genetic Data" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
       <p style="text-align:center; margin-top:1em;"><strong>Your Genetic Data</strong><br><small>WGS, AncestryDNA, or 23andMe — stored locally on your device.</small></p>
-    </div>
-    <div class="swiper-slide">
-      <img src="/assets/images/dnavault_ancestry.png" alt="Ancestral Origins" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
-      <p style="text-align:center; margin-top:1em;"><strong>Ancestral Origins</strong><br><small>Trace your paternal and maternal lineage back thousands of years.</small></p>
-    </div>
-    <div class="swiper-slide">
-      <img src="/assets/images/dnavault_health.png" alt="Health Insights" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
-      <p style="text-align:center; margin-top:1em;"><strong>Health Insights</strong><br><small>81 ACMG genes, pharmacogenomics, and clinically significant variants.</small></p>
     </div>
     <div class="swiper-slide">
       <img src="/assets/images/dnavault_kinship.png" alt="Kinship Analysis" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
@@ -48,6 +44,14 @@ excerpt: >
     <div class="swiper-slide">
       <img src="/assets/images/dnavault_kinship_results.png" alt="Precise Results" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
       <p style="text-align:center; margin-top:1em;"><strong>Precise Results</strong><br><small>IBD segment analysis identifies Half Siblings, Cousins, Parent/Child, and more.</small></p>
+    </div>
+    <div class="swiper-slide">
+      <img src="/assets/images/dnavault_ancestry.png" alt="Ancestral Origins" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
+      <p style="text-align:center; margin-top:1em;"><strong>Ancestral Origins</strong><br><small>Trace your paternal and maternal lineage back thousands of years.</small></p>
+    </div>
+    <div class="swiper-slide">
+      <img src="/assets/images/dnavault_health.png" alt="Health Insights" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
+      <p style="text-align:center; margin-top:1em;"><strong>Health Insights</strong><br><small>81 ACMG genes, pharmacogenomics, and clinically significant variants.</small></p>
     </div>
     <div class="swiper-slide">
       <img src="/assets/images/dnavault_ask.png" alt="Ask Your Genome" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
