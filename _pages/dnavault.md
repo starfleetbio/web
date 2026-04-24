@@ -15,7 +15,8 @@ header:
       btn_class: "btn--primary btn--large"
 excerpt: >
   Your genome. Your privacy. Your device.<br>
-  <small>Other apps sell you reports — which means they have to look at your data. Our reports are generated on your phone. Your raw genome never leaves your device for kinship, origins, health, or Ask. When any processing requires a server, we process your DNA inside a cryptographically attested enclave, encrypted with a key only your phone holds. We cannot read the result. Not by policy. By math.</small>
+  <small>Other apps sell you reports — which means they have to look at your genetic data. We process your genetic data inside a cryptographically attested enclave, encrypted with a key only your phone holds. We cannot read the result, not just by policy, but by math. Our reports are generated on your phone. Your genetic data never leaves your device for Kinship, Origins, Health, or Ask.</small>
+---
 
 <!-- Swiper carousel for app screenshots -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
