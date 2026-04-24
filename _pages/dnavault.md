@@ -19,8 +19,8 @@ excerpt: >
 ---
 
 <div style="background: #0d1117; border-left: 4px solid #00bcd4; padding: 1.5em 2em; margin: 2em 0; border-radius: 8px; color: #e0e0e0;">
-<h2 style="color: #00bcd4; margin-top: 0;">Privacy That Can't Be Overridden</h2>
-<p>Most apps promise not to look at your data. We made it technically impossible — using your iPhone's Secure Enclave and AWS Nitro Enclaves to ensure your genome stays yours, mathematically.</p>
+<h2 style="color: #00bcd4; margin-top: 0;">Your genome. Your privacy. Your device.</h2>
+<p>Other apps sell you reports — which means they have to look at your data. We made that technically impossible. Your genome is processed inside a cryptographically attested enclave and encrypted with a key only your phone holds. We receive ciphertext we cannot read.</p>
 <p style="margin-bottom: 0;"><a href="/dnavault/about/" style="color: #00bcd4;">Learn how it works →</a></p>
 </div>
 
@@ -66,6 +66,7 @@ excerpt: >
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
   new Swiper('.dnavault-swiper', {
+    initialSlide: 0,
     slidesPerView: 1,
     spaceBetween: 30,
     centeredSlides: true,
