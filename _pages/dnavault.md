@@ -18,16 +18,10 @@ excerpt: >
   <small>We process your DNA inside a cryptographically attested enclave — and we cannot read the result. Not by policy. By math.</small>
 ---
 
-<div style="background: #0d1117; border-left: 4px solid #00bcd4; padding: 2em 2em 1.5em; margin: 2em 0; border-radius: 8px; color: #e0e0e0;">
+<div style="background: #0d1117; border-left: 4px solid #00bcd4; padding: 1.5em 2em; margin: 2em 0; border-radius: 8px; color: #e0e0e0;">
 <h2 style="color: #00bcd4; margin-top: 0;">Privacy That Can't Be Overridden</h2>
-<p>Most apps promise not to look at your data. We made it technically impossible.</p>
-<ol>
-  <li><strong>Your phone generates a public/private keypair.</strong> The private key lives in the iPhone Secure Enclave and never leaves your device — ever.</li>
-  <li><strong>Your genomic data is processed inside an AWS Nitro Enclave</strong> — isolated compute with no persistent storage, no network access, and no operator access. The enclave's identity is cryptographically attested before receiving any data.</li>
-  <li><strong>The result is encrypted with your public key</strong> inside the enclave, before it leaves. Only you — the holder of the private key on your iPhone — can decrypt it.</li>
-  <li><strong>We receive ciphertext we cannot read.</strong> Not with any master key, not in response to a subpoena, not under any circumstance.</li>
-</ol>
-<p style="margin-bottom: 0;"><strong>This is not a privacy policy. It is a cryptographic guarantee.</strong></p>
+<p>Most apps promise not to look at your data. We made it technically impossible — using your iPhone's Secure Enclave and AWS Nitro Enclaves to ensure your genome stays yours, mathematically.</p>
+<p style="margin-bottom: 0;"><a href="/dnavault/about/" style="color: #00bcd4;">Learn how it works →</a></p>
 </div>
 
 <!-- Swiper carousel for app screenshots -->
