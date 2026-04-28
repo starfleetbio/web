@@ -68,4 +68,4 @@ MyDNAVault implements peer-reviewed algorithms for every analysis. See the full 
 
 MyDNAVault is developed by [StarfleetBio](https://starfleetbio.com) — a company focused on computer-aided science for modern research and development.
 
-Questions or feedback: [dnavault@starfleetbio.com](mailto:dnavault@starfleetbio.com)
+Questions or feedback: [mydnavault@starfleetbio.com](mailto:mydnavault@starfleetbio.com)

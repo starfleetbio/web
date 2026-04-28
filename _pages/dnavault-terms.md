@@ -101,7 +101,7 @@ We may update these Terms from time to time. The current version is always poste
 For questions about these Terms:
 
 **StarfleetBio**
-[dnavault@starfleetbio.com](mailto:dnavault@starfleetbio.com)
+[mydnavault@starfleetbio.com](mailto:mydnavault@starfleetbio.com)
 
 ---
 

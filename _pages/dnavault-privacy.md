@@ -43,7 +43,7 @@ Apple may collect analytics and crash reports through standard iOS mechanisms. T
 
 ### 1.5 Contact and Support
 
-If you contact us by email at [dnavault@starfleetbio.com](mailto:dnavault@starfleetbio.com), we retain your message and email address to respond to your inquiry. We do not add you to any mailing list.
+If you contact us by email at [mydnavault@starfleetbio.com](mailto:mydnavault@starfleetbio.com), we retain your message and email address to respond to your inquiry. We do not add you to any mailing list.
 
 ---
 
@@ -88,7 +88,7 @@ We may update this Privacy Policy from time to time. When we do, we will update 
 For privacy questions or concerns:
 
 **StarfleetBio**
-[dnavault@starfleetbio.com](mailto:dnavault@starfleetbio.com)
+[mydnavault@starfleetbio.com](mailto:mydnavault@starfleetbio.com)
 
 ---
 

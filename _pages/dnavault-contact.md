@@ -13,7 +13,7 @@ header:
 ## Get in Touch
 
 **General inquiries and support**
-[dnavault@starfleetbio.com](mailto:dnavault@starfleetbio.com)
+[mydnavault@starfleetbio.com](mailto:mydnavault@starfleetbio.com)
 
 ---
 
@@ -24,7 +24,7 @@ Found something wrong? Please include:
 - The genome format you're using (WGS, AncestryDNA, 23andMe)
 - A description of what happened and what you expected
 
-Send to [dnavault@starfleetbio.com](mailto:dnavault@starfleetbio.com)
+Send to [mydnavault@starfleetbio.com](mailto:mydnavault@starfleetbio.com)
 
 ---
 
