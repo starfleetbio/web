@@ -15,7 +15,7 @@ header:
       btn_class: "btn--primary btn--large"
 excerpt: >
   Your genome. Your privacy. Your device.<br>
-  <small>Other apps sell you reports — which means they read your data. When we process your whole genome, it happens inside a cryptographically attested enclave and the result is encrypted with a key only your device holds — nobody can read it but you. All analysis — Kinship, Origins, Health, Ask — runs on your device. Not by policy. By math.</small>
+  <small>Other apps sell you reports — which means they read your data. When we determine your Whole Genome Sequence, it happens inside a cryptographically attested enclave and the result is encrypted with a key only your device holds — nobody can read it but you. All analysis — Kinship, Origins, Health, Ask — runs on your device. This is a cryptographic guarantee, not a privacy policy.</small>
 ---
 
 <!-- Swiper carousel for app screenshots -->
