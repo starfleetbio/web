@@ -1,5 +1,5 @@
 ---
-title: DNAVault Scientific References
+title: MyDNAVault Scientific References
 layout: single
 permalink: /dnavault/references/
 show_date: false
@@ -12,7 +12,7 @@ header:
   min_height: 180px
 ---
 
-DNAVault is built on peer-reviewed science. This page lists the primary references underlying the algorithms, databases, and clinical standards used in the app.
+MyDNAVault is built on peer-reviewed science. This page lists the primary references underlying the algorithms, databases, and clinical standards used in the app.
 
 ---
 

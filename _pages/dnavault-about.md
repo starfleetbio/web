@@ -12,13 +12,13 @@ header:
   overlay_color: "#0D1117"
 ---
 
-## What is DNAVault?
+## What is MyDNAVault?
 
-DNAVault is a privacy-first genomics app for iPhone. It lets you explore your own genetic data — kinship, ancestry, health, and more — entirely on your device. Your genome never leaves your phone without your knowledge, and what does leave is encrypted so that only you can read it.
+MyDNAVault is a privacy-first genomics app for iPhone. It lets you explore your own genetic data — kinship, ancestry, health, and more — entirely on your device. Your genome never leaves your phone without your knowledge, and what does leave is encrypted so that only you can read it.
 
 ## Privacy Architecture
 
-Most apps promise not to look at your data. DNAVault makes it technically impossible.
+Most apps promise not to look at your data. MyDNAVault makes it technically impossible.
 
 1. **Your phone generates a public/private keypair.** The private key lives in the iPhone Secure Enclave and never leaves your device — ever.
 
@@ -46,7 +46,7 @@ This is not a privacy policy. It is a cryptographic guarantee.
 
 ## The Science
 
-DNAVault implements peer-reviewed algorithms for every analysis. See the full [Scientific References](/dnavault/references/) for citations covering kinship, haplogroup classification, health variant interpretation, and ancestry.
+MyDNAVault implements peer-reviewed algorithms for every analysis. See the full [Scientific References](/dnavault/references/) for citations covering kinship, haplogroup classification, health variant interpretation, and ancestry.
 
 ## Pricing
 
@@ -66,6 +66,6 @@ DNAVault implements peer-reviewed algorithms for every analysis. See the full [S
 
 ## Who Built This?
 
-DNAVault is developed by [StarfleetBio](https://starfleetbio.com) — a company focused on computer-aided science for modern research and development.
+MyDNAVault is developed by [StarfleetBio](https://starfleetbio.com) — a company focused on computer-aided science for modern research and development.
 
 Questions or feedback: [dnavault@starfleetbio.com](mailto:dnavault@starfleetbio.com)

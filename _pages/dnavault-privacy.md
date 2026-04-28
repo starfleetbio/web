@@ -1,5 +1,5 @@
 ---
-title: DNAVault — Privacy Policy
+title: MyDNAVault — Privacy Policy
 layout: single
 permalink: /dnavault/privacy/
 show_date: false
@@ -16,11 +16,11 @@ header:
 
 ## Overview
 
-DNAVault is a privacy-first application. **Your genetic data never leaves your device.** All analysis — kinship comparison, haplogroup classification, health variant scanning — runs entirely on your iPhone or iPad. StarfleetBio does not operate servers that receive, store, or process your genomic data.
+MyDNAVault is a privacy-first application. **Your genetic data never leaves your device.** All analysis — kinship comparison, haplogroup classification, health variant scanning — runs entirely on your iPhone or iPad. StarfleetBio does not operate servers that receive, store, or process your genomic data.
 
 ---
 
-## 1. What Data DNAVault Collects
+## 1. What Data MyDNAVault Collects
 
 ### 1.1 Genomic Data (Local Only)
 
@@ -28,11 +28,11 @@ When you import a raw DNA file (23andMe, AncestryDNA, or a Whole Genome Sequenci
 
 ### 1.2 Reference Databases (Bundled)
 
-DNAVault includes reference databases used for analysis (Y-DNA haplogroup tree, mitochondrial haplogroup motifs, rsID coordinate bridge). These are bundled with the app and do not require network access.
+MyDNAVault includes reference databases used for analysis (Y-DNA haplogroup tree, mitochondrial haplogroup motifs, rsID coordinate bridge). These are bundled with the app and do not require network access.
 
 ### 1.3 Health and Variant Queries
 
-When you use the **Ask** or **Health** features, DNAVault queries biomedical databases for variant information:
+When you use the **Ask** or **Health** features, MyDNAVault queries biomedical databases for variant information:
 
 - **ClinVar** queries run entirely on-device against a locally downloaded database. Your genomic variants are never transmitted to NCBI or any external server.
 - **BioMCP** variant and trial search queries are routed through a StarfleetBio proxy service, which conceals your device's IP address from the BioMCP service. These queries contain only SNP identifiers (e.g., rsIDs, gene names) — no raw genomic sequences and no personally identifying information.
@@ -47,7 +47,7 @@ If you contact us by email at [dnavault@starfleetbio.com](mailto:dnavault@starfl
 
 ---
 
-## 2. What Data DNAVault Does NOT Collect
+## 2. What Data MyDNAVault Does NOT Collect
 
 - Your name, address, or any demographic information
 - Your genotype data, VCF files, or raw DNA files
@@ -59,7 +59,7 @@ If you contact us by email at [dnavault@starfleetbio.com](mailto:dnavault@starfl
 
 ## 3. Data Sharing
 
-StarfleetBio does not sell, rent, or share your data with third parties. The only outbound network requests made by DNAVault are the public biomedical API queries described in §1.3, which contain no personal or genomic identifiers.
+StarfleetBio does not sell, rent, or share your data with third parties. The only outbound network requests made by MyDNAVault are the public biomedical API queries described in §1.3, which contain no personal or genomic identifiers.
 
 ---
 
@@ -67,13 +67,13 @@ StarfleetBio does not sell, rent, or share your data with third parties. The onl
 
 Your genomic database is stored in your device's app sandbox, which is encrypted by iOS using your device passcode. We recommend enabling a strong device passcode and Face ID / Touch ID.
 
-If you delete the DNAVault app, all locally stored genomic data is permanently removed from your device.
+If you delete the MyDNAVault app, all locally stored genomic data is permanently removed from your device.
 
 ---
 
 ## 5. Children
 
-DNAVault is not directed at children under 13. We do not knowingly collect information from children. If you believe a child has used the app in a way that raises privacy concerns, please contact us.
+MyDNAVault is not directed at children under 13. We do not knowingly collect information from children. If you believe a child has used the app in a way that raises privacy concerns, please contact us.
 
 ---
 
@@ -92,4 +92,4 @@ For privacy questions or concerns:
 
 ---
 
-*DNAVault is for informational purposes only and is not a clinical diagnostic tool. See our [Terms of Use](/dnavault/terms/) for details.*
+*MyDNAVault is for informational purposes only and is not a clinical diagnostic tool. See our [Terms of Use](/dnavault/terms/) for details.*

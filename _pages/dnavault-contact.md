@@ -37,4 +37,4 @@ Send to [dnavault@starfleetbio.com](mailto:dnavault@starfleetbio.com)
 
 ## About the Company
 
-DNAVault is developed by [StarfleetBio](https://starfleetbio.com).
+MyDNAVault is developed by [StarfleetBio](https://starfleetbio.com).
