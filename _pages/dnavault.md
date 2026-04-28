@@ -14,7 +14,7 @@ header:
       url: "https://apps.apple.com/app/dnavault/id6741454239"
       btn_class: "btn--primary btn--large"
 excerpt: >
-  Your genome. Your privacy. Your device.<br>
+  Your genome. Your privacy. Your phone.<br>
   <small>Other apps sell you reports — which means they read your data. When we determine your Whole Genome Sequence, it happens inside a cryptographically attested enclave and the result is encrypted with a key only your phone holds — nobody can read it but you. All analysis — Kinship, Origins, Health, Ask — runs on your phone. This is a cryptographic guarantee, not a privacy policy.</small>
 ---
 
@@ -25,7 +25,7 @@ excerpt: >
   <div class="swiper-wrapper">
     <div class="swiper-slide">
       <img src="/assets/images/dnavault_welcome.png" alt="Welcome" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
-      <p style="text-align:center; margin-top:1em;"><strong>MyDNAVault</strong><br><small>Your genome. Your privacy. Your device.</small></p>
+      <p style="text-align:center; margin-top:1em;"><strong>MyDNAVault</strong><br><small>Your genome. Your privacy. Your phone.</small></p>
     </div>
     <div class="swiper-slide">
       <img src="/assets/images/dnavault_home.png" alt="Your Genetic Data" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
