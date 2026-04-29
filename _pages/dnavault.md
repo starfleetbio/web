@@ -45,11 +45,11 @@ excerpt: >
     </div>
     <div class="swiper-slide">
       <img src="/assets/images/dnavault_health.png" alt="Health Insights" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
-      <p style="text-align:center; margin-top:1em;"><strong>Health Insights</strong><br><small>81 ACMG genes, pharmacogenomics, and clinically significant variants.</small></p>
+      <p style="text-align:center; margin-top:1em;"><strong>Health Insights</strong><br><small>81 ACMG medically actionable genes, pharmacogenomics, and clinically significant variants.</small></p>
     </div>
     <div class="swiper-slide">
       <img src="/assets/images/dnavault_ask.png" alt="Ask Your Genome" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
-      <p style="text-align:center; margin-top:1em;"><strong>Ask Your Genome</strong><br><small>Plain-language questions answered by Claude AI using your local genome.</small></p>
+      <p style="text-align:center; margin-top:1em;"><strong>Ask Your Genome</strong><br><small>Ask plain-language questions about your genome — answered on your phone.</small></p>
     </div>
   </div>
   <div class="swiper-pagination"></div>
