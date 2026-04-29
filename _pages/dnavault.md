@@ -1,5 +1,5 @@
 ---
-title: "MyDNAVault"
+title: "DNAVault"
 layout: splash
 permalink: /dnavault/
 dnavault_site: true
@@ -25,7 +25,7 @@ excerpt: >
   <div class="swiper-wrapper">
     <div class="swiper-slide">
       <img src="/assets/images/dnavault_welcome.png" alt="Welcome" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
-      <p style="text-align:center; margin-top:1em;"><strong>MyDNAVault</strong><br><small>Your genome. Your privacy. Your phone.</small></p>
+      <p style="text-align:center; margin-top:1em;"><strong>DNAVault</strong><br><small>Your genome. Your privacy. Your phone.</small></p>
     </div>
     <div class="swiper-slide">
       <img src="/assets/images/dnavault_home.png" alt="Your Genetic Data" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
