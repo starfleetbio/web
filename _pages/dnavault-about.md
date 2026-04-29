@@ -34,7 +34,7 @@ This is not a privacy policy. It is a cryptographic guarantee.
 - **Kinship** — IBD segment comparison runs locally. Proximity sharing is end-to-end encrypted; nothing is retained after analysis.
 - **Haplogroup classification** — Y-DNA and mtDNA classification using Yleaf and mitoLEAF, on-device.
 - **Health screening** — ClinVar variant lookup runs against a local database you download once.
-- **Ask** — Only the text of your question is sent to Claude AI via an anonymizing proxy. Raw genome data is never transmitted.
+- **Ask** — Only the text of your question is sent to an AI via an anonymizing proxy. Raw genome data is never transmitted.
 
 ## Supported Formats
 
