@@ -14,7 +14,11 @@ header:
 
 ## What is DNAVault?
 
-DNAVault is a privacy-first genomics app for iPhone. It lets you explore your own genetic data — kinship, ancestry, health, and more — entirely on your device. Your genome never leaves your phone without your knowledge, and what does leave is encrypted so that only you can read it.
+Other genomics services make privacy promises. DNAVault makes a cryptographic guarantee.
+
+When we determine your Whole Genome Sequence, it happens inside a cryptographically attested enclave and the result is encrypted with a key only your phone holds — nobody can read it but you. All analysis — Kinship, Origins, Health, Ask — runs on your phone.
+
+This is a cryptographic guarantee, not a privacy policy.
 
 ## Privacy Architecture
 
