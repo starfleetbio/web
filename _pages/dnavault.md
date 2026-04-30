@@ -10,7 +10,7 @@ header:
   overlay_color: "#0D1117"
   og_image: /assets/images/logo.png
   actions:
-    - label: "Download on the App Store"
+    - label: "Coming Soon on the App Store"
       url: "https://apps.apple.com/app/dnavault/id6741454239"
       btn_class: "btn--primary btn--large"
 excerpt: >
