@@ -50,7 +50,7 @@ There are three ways to bring your genetic data to DNAVault, each with different
 
 ## Privacy Architecture
 
-Other genomics services rely on promises — not to read your data, or to anonymize it first. DNAVault removes the possibility entirely.
+Other genomics services rely on promises — not to read your data, to anonymize it, or to encrypt it. But if they hold the keys, they can read it. DNAVault removes the possibility entirely.
 
 1. **Your phone generates a public/private keypair.** The private key lives in the iPhone Secure Enclave and never leaves your device — ever.
 
