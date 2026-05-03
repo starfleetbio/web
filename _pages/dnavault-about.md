@@ -28,7 +28,7 @@ Privacy makes this more powerful. Your genetic data is the most personal data th
 
 This is a cryptographic guarantee, not a privacy policy.
 
-## Genome Sources
+## Genetic Data Sources
 
 There are three ways to bring your genetic data to DNAVault, each with different coverage and privacy tradeoffs.
 
