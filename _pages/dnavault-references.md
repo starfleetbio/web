@@ -1,5 +1,5 @@
 ---
-title: DNAVault Scientific References
+title: References
 layout: splash
 permalink: /dnavault/references/
 show_date: false
