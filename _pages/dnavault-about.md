@@ -34,9 +34,9 @@ There are three ways to bring your genetic data to DNAVault, each with different
 
 **AncestryDNA or 23andMe raw data** — Import your existing SNP array file directly. 600K–700K SNP positions are sufficient for Kinship analysis and haplogroup classification. Health screening and Ask provide degraded results compared to WGS — many clinically significant variants fall outside array coverage. Note that AncestryDNA and 23andMe have already processed your genome on their servers; DNAVault cannot retroactively guarantee privacy for data those companies hold.
 
-**BYO WGS via consulting** — StarfleetBio can help you obtain a WGS genome file through consulting services. WGS provides full variant coverage for Health, Ask, and Kinship. As with SNP arrays, third-party WGS sequencing happens outside a cryptographic enclave — your genome passes through third-party infrastructure during processing.
+**BYO WGS via consulting** — If you already have your WGS, StarfleetBio can help you obtain a WGS file for use with DNAVault through consulting services. WGS provides full variant coverage for Kinship, Origins, Health, and Ask. As with SNP arrays, third-party WGS sequencing happens outside a cryptographic enclave.
 
-**Coming soon: Order WGS from your phone** — We are building the ability to order Whole Genome Sequencing directly from DNAVault. Sequencing will happen inside a cryptographically attested enclave; the result will be encrypted with a key only your phone holds before it ever leaves. This is the only path to a cryptographic privacy guarantee — nobody, including StarfleetBio, can read your genetic data.
+**Coming soon: Order WGS from your phone** — We will soon provide the ability to order Whole Genome Sequencing directly from DNAVault. Sequencing will happen inside a cryptographically attested enclave; the result will be encrypted with a key only your phone holds before it ever leaves. This is the only path to a cryptographic privacy guarantee — nobody, including StarfleetBio, can read your genetic data.
 
 ## Privacy Architecture
 
