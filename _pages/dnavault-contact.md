@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-layout: single
+layout: splash
 permalink: /dnavault/contact/
 dnavault_site: true
 show_date: false
@@ -8,6 +8,9 @@ header:
   overlay_image: /assets/images/header.jpg
   overlay_filter: 0.4
   overlay_color: "#0D1117"
+excerpt: >
+  Questions, feedback, or bugs — we read everything.<br>
+  <small>DNAVault is built by a small team that cares. Reach out and a real person will respond.</small>
 ---
 
 ## Get in Touch

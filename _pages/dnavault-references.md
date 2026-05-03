@@ -1,6 +1,6 @@
 ---
 title: DNAVault Scientific References
-layout: single
+layout: splash
 permalink: /dnavault/references/
 show_date: false
 dnavault_site: true
@@ -8,8 +8,11 @@ toc: true
 toc_label: "Categories"
 header:
   overlay_image: /assets/images/header.jpg
-  overlay_filter: 0.3
-  min_height: 180px
+  overlay_filter: 0.4
+  overlay_color: "#0D1117"
+excerpt: >
+  Peer-reviewed science, not black-box algorithms.<br>
+  <small>Every analysis in DNAVault — Kinship, Origins, Health, and Ask — is built on published, citable research.</small>
 ---
 
 DNAVault is built on peer-reviewed science. This page lists the primary references underlying the algorithms, databases, and clinical standards used in the app.
