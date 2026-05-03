@@ -52,6 +52,23 @@ Other genomics services rely on promises — not to read your data, or to anonym
 
 This is not a privacy policy. It is a cryptographic guarantee.
 
+## How Ask Works
+
+Ask translates plain-language questions about your genetic data into answers — without sending your genome anywhere.
+
+Your question is sent to an AI language model via a proxy that verifies every request comes from a genuine, unmodified DNAVault app using Apple's Secure Enclave cryptography.
+
+The AI routes your question into two types of lookups:
+
+**General scientific questions** — what a gene does, what a condition involves, what a variant means in published research — query public biomedical databases. Only gene names, variant IDs, and disease terms are sent. None of your personal data leaves your phone.
+
+**Personal genomic questions** — whether you carry specific variants, your pharmacogenomic profile, your pathogenic findings — run entirely on your phone against your local genome and the on-device variant database. The AI receives only the structured result (e.g., "0 pathogenic variants found in BRCA1"), never your raw genetic data.
+
+The AI formulates a plain-language answer from these results and returns it to your phone.
+
+**The AI sees:** your question, public scientific context, and structured findings from your phone.
+**The AI never sees:** your raw genome, variant calls, or genotypes.
+
 ## The Science
 
 DNAVault implements peer-reviewed algorithms for every analysis. See the full [Scientific References](/dnavault/references/) for citations covering kinship, haplogroup classification, health variant interpretation, and ancestry.
