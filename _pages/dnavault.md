@@ -37,7 +37,7 @@ excerpt: >
     </div>
     <div class="swiper-slide">
       <img src="/assets/images/dnavault_kinship_results.png?v=20260430" alt="Precise Results" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
-      <p style="text-align:center; margin-top:1em;"><strong>Precise Results</strong><br><small>IBD segment analysis identifies Half Siblings, Cousins, Parent/Child, and more.</small></p>
+      <p style="text-align:center; margin-top:1em;"><strong>Precise Results</strong><br><small>Identifies Unrelated, Half Siblings, Cousins, Parent/Child, and more.</small></p>
     </div>
     <div class="swiper-slide">
       <img src="/assets/images/dnavault_ancestry.png?v=20260430" alt="Ancestral Origins" style="border-radius:20px; width:100%; max-width:280px; display:block; margin:0 auto; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
