@@ -45,7 +45,7 @@ There are three ways to bring your genetic data to DNAVault, each with different
 
 **BYO WGS via consulting** — If you already have your WGS, [StarfleetBio](https://starfleetbio.com) can help you obtain a WGS file for use with DNAVault through consulting services. WGS provides full variant coverage for Kinship, Origins, Health, and Ask. Note that third-party sequencing happens outside a cryptographic enclave; DNAVault cannot retroactively guarantee privacy for data those providers hold.
 
-**Coming soon: Order WGS from your phone** — We will soon provide the ability to order Whole Genome Sequencing directly from DNAVault. Sequencing will happen inside a cryptographically attested enclave; the result will be encrypted with a key only your phone holds before it ever leaves. This is the only path to a cryptographic privacy guarantee — nobody, including StarfleetBio, can read your genetic data.
+**Coming soon: Order a truly private WGS from your phone** — We will soon provide the ability to order Whole Genome Sequencing directly from DNAVault. Sequencing will happen inside a cryptographically attested enclave; the result will be encrypted with a key only your phone holds before it ever leaves. This is the only path to a cryptographic privacy guarantee — nobody, including StarfleetBio, can read your genetic data.
 
 ## Privacy Architecture
 
