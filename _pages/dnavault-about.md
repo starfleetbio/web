@@ -32,7 +32,7 @@ This is a cryptographic guarantee, not a privacy policy.
 
 There are three ways to bring your genetic data to DNAVault, each with different coverage and privacy tradeoffs.
 
-**AncestryDNA or 23andMe raw data** — Import your existing SNP array file directly. 600K–750K SNP positions are sufficient for Kinship analysis and haplogroup classification. Health screening and Ask provide degraded results compared to WGS — many clinically significant variants fall outside array coverage. Note that AncestryDNA and 23andMe have already processed your genome on their servers; DNAVault cannot retroactively guarantee privacy for data those companies hold.
+**AncestryDNA or 23andMe** — Import your existing raw data file directly. SNP arrays capture 600K–750K positions — about 15% of a full genome — which is sufficient for Kinship. Origins depends on your array version and sex: AncestryDNA V1 has no mitochondrial positions so maternal lineage (M) is unavailable, and paternal lineage (Y) requires male sex. Health and Ask results are accurate for what's covered, but many clinically significant variants fall outside array coverage. Note that AncestryDNA and 23andMe have already processed your genetic data on their servers; DNAVault cannot retroactively guarantee privacy for data those companies hold.
 
 **BYO WGS via consulting** — If you already have your WGS, [StarfleetBio](https://starfleetbio.com) can help you obtain a WGS file for use with DNAVault through consulting services. WGS provides full variant coverage for Kinship, Origins, Health, and Ask. Note that third-party sequencing happens outside a cryptographic enclave; DNAVault cannot retroactively guarantee privacy for data those providers hold.
 
