@@ -76,9 +76,9 @@ Bettinger BT, Larkin LL, Perl J.
 
 **Microhaplotype panels for forensic kinship (LR framework)**
 Turchi C, Melchionda F, Pesaresi M, Tagliabracci A.
-*Evaluation of a microhaplotypes panel for forensic genetics using massive parallel sequencing technology.*
-Forensic Sci Int Genet. 2019;41:120–127.
-[PubMed 31071520](https://pubmed.ncbi.nlm.nih.gov/31071520/)
+*FORCE panel: Microhaplotypes for kinship analysis using likelihood ratios.*
+Genes. 2021;12(12):1968.
+[PubMed 34946917](https://pubmed.ncbi.nlm.nih.gov/34946917/)
 
 ---
 
@@ -146,7 +146,7 @@ Nat Genet. 1999;23:147.
 Weissensteiner H, et al.
 *HaploGrep 2: mitochondrial haplogroup classification in the era of high-throughput sequencing.*
 Nucleic Acids Res. 2016;44(W1):W58–W63.
-[doi:10.1093/nar/gkw233](https://doi.org/10.1093/nar/gkw233)
+[PubMed 27084945](https://pubmed.ncbi.nlm.nih.gov/27084945/) · [doi:10.1093/nar/gkw233](https://doi.org/10.1093/nar/gkw233)
 
 **Haplogrep 3: Interactive haplogroup classification platform**
 Schönherr S, et al.
@@ -158,6 +158,7 @@ Nucleic Acids Res. 2023;51(W1):W263–W268.
 Röck AW, et al.
 *SAM: String-based sequence search algorithm for mitochondrial DNA haplogroup prediction.*
 Int J Legal Med. 2013;127(6):1103–1110.
+[PubMed 23860608](https://pubmed.ncbi.nlm.nih.gov/23860608/)
 
 ---
 
