@@ -11,7 +11,7 @@ header:
   overlay_filter: 0.4
   overlay_color: "#0D1117"
 excerpt: >
-  Your genetic data. Analyzed on your phone. No exceptions.<br>
+  Your genetic data. Analyzed on your phone.<br>
   <small>DNAVault runs Kinship, Origins, Health, and Ask locally — your genetic data never leaves your phone.</small>
 ---
 
