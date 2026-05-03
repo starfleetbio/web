@@ -65,7 +65,7 @@ This is not a privacy policy. It is a cryptographic guarantee.
 
 Ask translates plain-language questions about your genetic data into answers — without sending your genome anywhere.
 
-Your question is sent to an AI language model via a proxy that verifies every request comes from a genuine, unmodified DNAVault app using Apple's Secure Enclave cryptography.
+Your question is sent to an AI language model via a proxy — meaning the AI never sees your IP address and cannot identify who you are or where you are. The proxy also verifies every request comes from a genuine, unmodified DNAVault app using Apple's Secure Enclave cryptography.
 
 The AI routes your question into two types of lookups:
 
