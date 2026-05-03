@@ -42,6 +42,7 @@ There are three ways to bring your genetic data to DNAVault, each with different
 | 23andMe v3 | ~567K | Limited | Available | ~6% |
 | 23andMe v4 | ~570K | Available | Good | ~6% |
 | 23andMe v5 | ~640K | Best | Good | ~16% |
+| **Whole Genome Sequence** | **~5M** | **Full** | **Full** | **~100%** |
 
 **BYO WGS via consulting** — If you already have your WGS, [StarfleetBio](https://starfleetbio.com) can help you obtain a WGS file for use with DNAVault through consulting services. WGS provides full variant coverage for Kinship, Origins, Health, and Ask. Note that third-party sequencing happens outside a cryptographic enclave; DNAVault cannot retroactively guarantee privacy for data those providers hold.
 
