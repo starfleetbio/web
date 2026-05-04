@@ -30,7 +30,7 @@ This is a cryptographic guarantee, not a privacy policy.
 
 ## Genetic Data Sources
 
-There are three ways to bring your genetic data to DNAVault, each with different coverage and privacy tradeoffs.
+There are four ways to bring your genetic data to DNAVault, each with different coverage and privacy tradeoffs.
 
 **AncestryDNA or 23andMe** — Import your existing raw data file directly. SNP arrays capture 600K–750K positions — about 15% of a full genome — which is sufficient for Kinship. Origins coverage depends on your array version and sex (paternal lineage requires male sex). Health and Ask results are accurate for what's covered, but many clinically significant variants fall outside array coverage. Note that AncestryDNA and 23andMe have already processed your genetic data on their servers; DNAVault cannot retroactively guarantee privacy for data those companies hold.
 
@@ -43,6 +43,23 @@ There are three ways to bring your genetic data to DNAVault, each with different
 | 23andMe v4 | ~570K | Available | Good | ~6% |
 | 23andMe v5 | ~640K | Best | Good | ~16% |
 | **Whole Genome Sequence** | **~5M** | **Full** | **Full** | **~100%** |
+
+**Try with Demo Data** — Not ready to import your own file? DNAVault includes demo public genomes from the [1000 Genomes Project](https://www.internationalgenome.org) (NA19685, MXL family) that you can load with one tap to explore every feature before using your own data.
+
+| Demo | Format | Size | What you can explore |
+|---|---|---|---|
+| NA19685 WGS | Whole Genome | 977 MB | Full Kinship, Origins, Health, Ask |
+| NA19685 AncestryDNA V2 | SNP Array | 17 MB | Kinship, Origins (limited), Health (~48% ACMG) |
+| NA19685 23andMe v5 | SNP Array | 15 MB | Kinship, Origins (limited), Health (~16% ACMG) |
+
+Once a demo genome is loaded, the Kinship tab offers two additional demo comparison files so you can see the full kinship analysis workflow without needing a second person's data:
+
+| Kinship Demo | Sample | Expected Result |
+|---|---|---|
+| Demo Daughter | NA19686 (MXL, AncestryDNA V2) | Parent/Child — ~2,560 cM |
+| Demo Unrelated | HG03642 (ST006, AncestryDNA V2) | Unrelated — 0 cM |
+
+Demo data is downloaded on demand and is not your personal genetic data.
 
 **BYO WGS via consulting** — If you already have your WGS, [StarfleetBio](https://starfleetbio.com) can help you obtain a WGS file for use with DNAVault through consulting services. WGS provides full variant coverage for Kinship, Origins, Health, and Ask. Note that third-party sequencing happens outside a cryptographic enclave; DNAVault cannot retroactively guarantee privacy for data those providers hold.
 
@@ -89,6 +106,7 @@ DNAVault implements peer-reviewed algorithms for every analysis. See the full [S
 |---|---|
 | **App purchase** | $2.95 |
 | **All on-device features** | Free forever |
+| **Health database updates** | Free |
 | **Ask AI — first 30 days** | Free |
 | **Ask AI — Monthly** | $2.95/month |
 | **Ask AI — Annual** | $19.95/year |
