@@ -7,6 +7,8 @@ main:
     url: /mission/
   - title: "Posts"
     url: /posts/
+  - title: "DNAVault"
+    url: https://dnavault.starfleetbio.com
   - title: "Contact"
     url: /contact/
 
