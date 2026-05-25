@@ -1,5 +1,5 @@
 ---
-title: "Contact"
+title: "DNAVault — Contact"
 layout: splash
 permalink: /dnavault/contact/
 dnavault_site: true

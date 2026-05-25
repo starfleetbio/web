@@ -1,5 +1,6 @@
 ---
 title: DNAVault — Terms of Use
+description: "DNAVault Terms of Use — iOS app for private on-device genomic analysis by StarfleetBio."
 layout: single
 permalink: /dnavault/terms/
 show_date: false

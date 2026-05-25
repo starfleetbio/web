@@ -18,6 +18,8 @@ excerpt: >
   <small>Other companies sell you reports — which means they read your data. When we determine your Whole Genome Sequence, it happens inside a cryptographically attested enclave and the result is encrypted with a key only your phone holds — nobody can read it but you. All analysis — Kinship, Origins, Health, Ask — runs on your phone. This is a cryptographic guarantee, not a privacy policy.</small>
 ---
 
+<h1 style="display:none">DNAVault</h1>
+
 <!-- Swiper carousel for app screenshots -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 

@@ -1,5 +1,6 @@
 ---
 title: DNAVault — Privacy Policy
+description: "DNAVault Privacy Policy — your genetic data never leaves your phone. All analysis runs locally on your device."
 layout: single
 permalink: /dnavault/privacy/
 show_date: false
