@@ -6,6 +6,14 @@ date: 2025-07-03T11:48:41-04:00
 show_date: false
 intro: 
   - excerpt: "We roll up our sleeves and **work with you**, side by side, to apply modern computer-aided science methods to move your science further, faster."
+feature_row_dnavault:
+  - image_path: /assets/images/dnavault_welcome.png
+    alt: "DNAVault app"
+    title: "DNAVault"
+    excerpt: "Analyze your genome on your phone. Kinship, Origins, Health, and Ask — your genetic data never leaves your device. Available on the App Store."
+    url: "https://dnavault.starfleetbio.com"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
 feature_row:
   - image_path: assets/images/wrench.jpg
     alt: "placeholder image 2"
@@ -54,6 +62,8 @@ feature_row4:
 ---
 
 {% include feature_row id="intro" type="center" %}
+
+{% include feature_row id="feature_row_dnavault" type="left" %}
 
 {% include feature_row id="feature_row4" type="center" %}
 
