@@ -20,6 +20,12 @@ excerpt: >
 
 <h1 style="display:none">DNAVault</h1>
 
+<div style="margin: 2em 0 1em;">
+  <a href="https://www.bio-itworldexpo.com/best-of-show" target="_blank" rel="noopener">
+    <img src="/assets/images/bioitworld_best_of_show.jpg" alt="Bio-IT World 2026 Best of Show Winner — StarfleetBio DNAVault" style="width:100%; border-radius:12px; display:block;">
+  </a>
+</div>
+
 <!-- Swiper carousel for app screenshots -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
