@@ -21,8 +21,8 @@ excerpt: >
 <h1 style="display:none">DNAVault</h1>
 
 <div style="margin: 2em 0 1em; text-align:center;">
-  <a href="https://www.bio-itworldexpo.com/best-of-show" target="_blank" rel="noopener">
-    <img src="/assets/images/bioitworld_best_of_show_badge.png" alt="Bio-IT World 2026 Best of Show Winner" style="width:200px; border-radius:12px; display:inline-block;">
+  <a href="https://www.bio-itworld.com/news/2026/05/13/36-new-products-at-bio-it-world-2026" target="_blank" rel="noopener">
+    <img src="/assets/images/bioitworld_best_of_show_badge.png" alt="Bio-IT World 2026 Best of Show Winner" style="width:280px; border-radius:12px; display:inline-block;">
   </a>
 </div>
 
